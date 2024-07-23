@@ -1,0 +1,40 @@
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1 style="font-size: 2.5rem; color: #007bff; font-weight: bold; text-align: center; margin-bottom: 2rem;">Download Test Files</h1>
+
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+				<div class="card-header">NOT_DANGEROUS</div>
+				<div class="card-body">
+					<h5 class="card-title">example.txt</h5>
+					<p class="card-text">This file is considered safe and not dangerous.</p>
+					<a href="example.txt" download="example.txt" class="btn btn-light">Download Text File</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card text-dark bg-warning mb-3" style="max-width: 18rem;">
+				<div class="card-header">ALLOW_ON_USER_GESTURE</div>
+				<div class="card-body">
+					<h5 class="card-title">example.bat</h5>
+					<p class="card-text">This file requires caution and user gesture to download.</p>
+					<a href="example.bat" download="example.bat" class="btn btn-dark">Download Batch File</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+				<div class="card-header">DANGEROUS</div>
+				<div class="card-body">
+					<h5 class="card-title">example.exe</h5>
+					<p class="card-text">This file is considered dangerous. Proceed with caution.</p>
+					<a href="example.exe" download="example.exe" class="btn btn-light">Download Executable File</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
