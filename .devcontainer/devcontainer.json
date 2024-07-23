@@ -1,6 +1,7 @@
 {
   "name": "C# (.NET)",
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "forwardPorts": [5292, 7117],
   "customizations": {
     "vscode": {
       "extensions": [
