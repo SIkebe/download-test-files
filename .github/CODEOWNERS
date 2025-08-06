@@ -1,0 +1,4 @@
+# CODEOWNERS file for automatic reviewer assignment
+# This replaces the deprecated 'reviewers' field in dependabot.yml
+# All files in the repository are owned by SIkebe
+* @SIkebe
